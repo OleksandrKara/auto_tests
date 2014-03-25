@@ -1,6 +1,7 @@
 package com.epam.ui;
 
 import com.epam.main.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,14 +15,10 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class AdmPage {
 
+    private WebElement link;
+
     @FindBy(xpath="//tbody//td//a[contains(@href,'/adm/login/?action=logout')]")
     WebElement logoutLink;
-
-    @FindBy(xpath = "//a[@href='revenueshare_payment/']")
-    WebElement revenueSharePaymentLink;
-
-    @FindBy(xpath = "//a[@href='dbadm/index.php']")
-    WebElement propertiesAdminLink;
 
     public AdmPage() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -31,8 +28,9 @@ public class AdmPage {
         return logoutLink;
     }
 
-    public PropertiesAdminPage clickToLinkPropertiesAdminLink(){
-        this.propertiesAdminLink.click();
-        return new PropertiesAdminPage();
+    public void clickToAdmLink(String urlPart){
+        link = Driver.getDriver().findElement(By.xpath("//a[@href='"+urlPart+"']"));
+        link.click();
+        //return new PropertiesAdminPage();
     }
 }

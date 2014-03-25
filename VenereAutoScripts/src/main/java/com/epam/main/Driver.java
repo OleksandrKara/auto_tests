@@ -1,6 +1,9 @@
 package com.epam.main;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -8,6 +11,7 @@ import org.testng.Assert;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -27,6 +31,13 @@ public class Driver {
 
     public static WebDriver getDriver() {
         return driver;
+    }
+
+    public static boolean isElementPresent(By locator) {
+        getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        List<WebElement> elements = getDriver().findElements(locator);
+        getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        return elements.size() > 0 && elements.get(0).isDisplayed();
     }
 
     public static void init() {
@@ -68,6 +79,10 @@ public class Driver {
                 Integer.parseInt(System.getProperty("test.timeout")),
                 TimeUnit.SECONDS
         ); //Configurations for synchronization
+    }
+
+    public static void javaScript(String javaScriptCode){
+        ((JavascriptExecutor) getDriver()).executeScript(javaScriptCode);
     }
 
     public static void tearDown() {

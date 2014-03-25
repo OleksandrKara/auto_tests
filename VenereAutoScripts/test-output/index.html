@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,7 @@
                     <div class="method-list-content passed suite-Custom_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Custom_suite" title="com.epam.tests.MainClass" hash-for-method="mainTest">mainTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Custom_suite" title="com.epam.tests.MainClass" hash-for-method="searchHotelIdInPropertiesAdmin">searchHotelIdInPropertiesAdmin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Custom_suite" title="com.epam.tests.MainClass" hash-for-method="authorisationTest">authorisationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Custom_suite -->
@@ -129,16 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="mainTest">
-                  </a> <!-- mainTest -->
-                  <span class="method-name">mainTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchHotelIdInPropertiesAdmin">
-                  </a> <!-- searchHotelIdInPropertiesAdmin -->
-                  <span class="method-name">searchHotelIdInPropertiesAdmin</span>
+                  <a name="authorisationTest">
+                  </a> <!-- authorisationTest -->
+                  <span class="method-name">authorisationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -155,7 +143,11 @@
 &lt;suite verbose=&quot;2&quot; name=&quot;Custom suite&quot; parallel=&quot;none&quot;&gt;
   &lt;test name=&quot;VenereAutoScripts&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.epam.tests.MainClass&quot;/&gt;
+      &lt;class name=&quot;com.epam.tests.MainClass&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;authorisationTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.epam.tests.MainClass --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- VenereAutoScripts --&gt;
 &lt;/suite&gt; &lt;!-- Custom suite --&gt;
@@ -195,20 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchHotelIdInPropertiesAdmin')
+data.setCell(0, 1, 'authorisationTest')
 data.setCell(0, 2, 'com.epam.tests.MainClass')
-data.setCell(0, 3, 4910);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'mainTest')
-data.setCell(1, 2, 'com.epam.tests.MainClass')
-data.setCell(1, 3, 3690);
+data.setCell(0, 3, 2976);
 window.suiteTableData['Custom_suite']= { tableData: data, tableDiv: 'times-div-Custom_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Custom_suite">
               </div> <!-- times-div-Custom_suite -->
             </div> <!-- times-div -->
@@ -219,18 +207,6 @@ return data;
             <span class="header-content">Reporter output for Custom suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchHotelIdInPropertiesAdmin</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">mainTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Custom_suite" class="panel">
@@ -252,24 +228,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">mainTest</span>
-                <span class="method-start">3696 ms</span>
+                <span class="method-name">authorisationTest</span>
+                <span class="method-start">1865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanup</span>
-                <span class="method-start">7386 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initialization</span>
-                <span class="method-start">7578 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchHotelIdInPropertiesAdmin</span>
-                <span class="method-start">11153 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanup</span>
-                <span class="method-start">16063 ms</span>
+                <span class="method-start">4841 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

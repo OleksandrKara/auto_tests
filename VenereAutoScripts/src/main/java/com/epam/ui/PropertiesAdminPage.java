@@ -14,14 +14,12 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class PropertiesAdminPage {
 
-    /*@FindBy (xpath="//table//pre/input[@name='id']")
-        WebElement hotelId;*/
-
     @FindBy (xpath = "//table[@class='formbox']//input[@name='id']") WebElement idHotel;
 
     @FindBy (xpath="//td/input[@class='submit'][@type='submit']") WebElement buttonSearch;
 
-
+    @FindBy (xpath = "//table[@class='formbox']//input[@name='name']") WebElement hotelNameElement;
+    @FindBy (xpath = "//table[@class='formbox']//input[@name='city']") WebElement hotelCityElement;
 
     public PropertiesAdminPage() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -31,9 +29,16 @@ public class PropertiesAdminPage {
         this.idHotel.sendKeys(hotelId);
     }
 
-
     public PropertiesAdminSecondPage clickSearch() {
         buttonSearch.click();
         return new PropertiesAdminSecondPage();
+    }
+
+    public void enterHotelName(String hotelName) {
+        this.hotelNameElement.sendKeys(hotelName);
+    }
+
+    public void enterHotelCity(String hotelCity) {
+        this.hotelCityElement.sendKeys(hotelCity);
     }
 }
