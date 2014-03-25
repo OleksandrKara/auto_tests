@@ -4,6 +4,7 @@ import com.epam.main.BaseTest;
 import com.epam.ui.AdmPage;
 import com.epam.ui.LoginPage;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 /**
@@ -21,6 +22,6 @@ public class MainClass extends BaseTest {
         AdmPage pageAdm = page.clickEnterToAdm();
         Assert.assertTrue(pageAdm.getValue().getText().equalsIgnoreCase("LOGOUT"),
                 "Logout message wasn't found");
-        //Reporter.log("Done", 2, true);
+        Reporter.log("Done", 2, true);
     }
 }

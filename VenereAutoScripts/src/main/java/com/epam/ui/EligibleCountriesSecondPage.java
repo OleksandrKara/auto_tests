@@ -16,8 +16,8 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class EligibleCountriesSecondPage {
 
-    @FindBy(xpath = "//select[@id = 'countries_to_add']/option[contains(text(),'Australia')]")
-    WebElement selectedCountry;
+    /*@FindBy(xpath = "//select[@id = 'countries_to_add']/option[contains(text(),'Australia')]")
+    WebElement selectedCountry;*/
 
     @FindBy(xpath = "//table//form[@class = 'add country form']/input[@class = 'add button']")
     WebElement addButton;
@@ -25,8 +25,8 @@ public class EligibleCountriesSecondPage {
     @FindBy(xpath = "//form[@id='remove_form']/input[@class = 'delete button']")
     WebElement deleteButton;
 
-    @FindBy(xpath = "//li[div[text()='Australia']]/div[@class = 'remove checkbox']")
-    WebElement removeCheckbox;
+    /*@FindBy(xpath = "//li[div[text()='Australia']]/div[@class = 'remove checkbox']")
+    WebElement removeCheckbox;*/
 
 
     public EligibleCountriesSecondPage () {
@@ -35,12 +35,14 @@ public class EligibleCountriesSecondPage {
 
     public void selectTheCountry(String countryName) {
         checkThatCountryIsNotAddedToTheMainList(countryName);
+        WebElement selectedCountry = Driver.getDriver().findElement(By.xpath("//select[@id = 'countries_to_add']/option[contains(text(),\'"+countryName+"\')]"));
         selectedCountry.click();
     }
 
     public void checkThatCountryIsNotAddedToTheMainList(String countryName) {
         if (listOfCountriesContainsCountry(countryName) == true){
             //steps to delete country from list
+            WebElement removeCheckbox = Driver.getDriver().findElement(By.xpath("//li[div[text()=\'"+countryName+"\']]/div[@class = 'remove checkbox']"));
             removeCheckbox.click();
             deleteButton.click();
             acceptConfirmationMessage();

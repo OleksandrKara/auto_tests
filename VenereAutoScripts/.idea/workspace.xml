@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VenereAutoScripts.iws" />
@@ -11,7 +13,7 @@
     <file path="/BaseTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395228471476" ignored="false" />
     <file path="/AdmPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678134791" ignored="false" />
     <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678661749" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764142509" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764150342" ignored="false" />
     <file path="/test.properties" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395679923133" ignored="false" />
     <file path="/LoginPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395575533472" ignored="false" />
     <file path="/PropertiesAdminPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395665906935" ignored="false" />
@@ -20,7 +22,7 @@
     <file path="/InvoicesConfiguration.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395760217193" ignored="false" />
     <file path="/EligibleCountries.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678357329" ignored="false" />
     <file path="/EligibleCountriesPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678681971" ignored="false" />
-    <file path="/EligibleCountriesSecondPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395760243498" ignored="false" />
+    <file path="/EligibleCountriesSecondPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764361781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,19 +89,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainClass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="9" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+            <state line="24" column="9" selection-start="801" selection-end="801" vertical-scroll-proportion="0.5521368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesAdmin.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PropertiesAdmin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="744" selection-end="744" vertical-scroll-proportion="0.02905983">
+            <state line="37" column="48" selection-start="1280" selection-end="1288" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +110,7 @@
       <file leaf-file-name="EligibleCountriesSecondPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+            <state line="23" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#EligibleCountriesSecondPage#0" expanded="false" />
@@ -129,7 +131,7 @@
       <file leaf-file-name="InvoicesConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="62" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+            <state line="37" column="29" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +182,10 @@
         <option value="$PROJECT_DIR$/test.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminSecondPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" />
       </list>
     </option>
@@ -799,7 +801,11 @@
       <created>1395764144345</created>
       <updated>1395764144345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Invoices Configurations tests had started to cover by automation scripts">
+      <created>1395764154459</created>
+      <updated>1395764154459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -840,7 +846,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34151548" sideWeight="0.6718576" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40021345" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.67964405" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32035595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="23" y="372" width="1874" height="296" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32035595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="23" y="372" width="1874" height="296" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -937,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
@@ -979,16 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#EligibleCountriesSecondPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="4" selection-start="418" selection-end="418" vertical-scroll-proportion="0.5811966">
@@ -1012,23 +1001,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="62" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+        <state line="37" column="29" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+        <state line="24" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.31965813">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#EligibleCountriesSecondPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="744" selection-end="744" vertical-scroll-proportion="0.02905983">
+        <state line="37" column="48" selection-start="1280" selection-end="1288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="9" selection-start="801" selection-end="801" vertical-scroll-proportion="0.5521368">
           <folding />
         </state>
       </provider>
