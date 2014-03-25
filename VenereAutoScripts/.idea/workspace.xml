@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_reportng_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_dep_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\Custom suite\testng-failed.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\testng-failed.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminSecondPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminSecondPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.tests.MainClass.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.tests.MainClass.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Custom suite/VenereAutoScripts.html" afterPath="$PROJECT_DIR$/test-output/Custom suite/VenereAutoScripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VenereAutoScripts.iml" afterPath="$PROJECT_DIR$/VenereAutoScripts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Custom suite/VenereAutoScripts.xml" afterPath="$PROJECT_DIR$/test-output/Custom suite/VenereAutoScripts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/classes.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="$PROJECT_DIR$/test-output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="$PROJECT_DIR$/test-output/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/methods.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/reporter-output.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/reporter-output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.properties" afterPath="$PROJECT_DIR$/test.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/testng.xml.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/testng.xml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/toc.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VenereAutoScripts.iws" />
@@ -42,7 +11,7 @@
     <file path="/BaseTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395228471476" ignored="false" />
     <file path="/AdmPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678134791" ignored="false" />
     <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678661749" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395742153863" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764114823" ignored="false" />
     <file path="/test.properties" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395679923133" ignored="false" />
     <file path="/LoginPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395575533472" ignored="false" />
     <file path="/PropertiesAdminPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395665906935" ignored="false" />
@@ -822,6 +791,11 @@
       <created>1395223771142</created>
       <updated>1395223771142</updated>
     </task>
+    <task id="LOCAL-00001" summary="Invoices Configurations tests had started to cover by automation scripts">
+      <created>1395764135837</created>
+      <updated>1395764135837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
