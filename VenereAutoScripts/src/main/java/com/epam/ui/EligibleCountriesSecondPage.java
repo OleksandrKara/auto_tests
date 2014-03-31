@@ -1,7 +1,7 @@
 package com.epam.ui;
 
+import com.epam.main.BasicSteps;
 import com.epam.main.Driver;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,17 +45,12 @@ public class EligibleCountriesSecondPage {
             WebElement removeCheckbox = Driver.getDriver().findElement(By.xpath("//li[div[text()=\'"+countryName+"\']]/div[@class = 'remove checkbox']"));
             removeCheckbox.click();
             deleteButton.click();
-            acceptConfirmationMessage();
+            BasicSteps.acceptConfirmationMessage();
         }
     }
 
     public void clickAddTheCountry() {
         addButton.click();
-    }
-
-    public void acceptConfirmationMessage() {
-        Alert alert = Driver.getDriver().switchTo().alert();
-        alert.accept();
     }
 
     public boolean listOfCountriesContainsCountry(String countryName) {

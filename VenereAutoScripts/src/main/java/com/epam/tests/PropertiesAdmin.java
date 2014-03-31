@@ -51,5 +51,6 @@ public class PropertiesAdmin extends BaseTest {
         pagePropertiesAdmin.enterHotelCity("Venezia");
         PropertiesAdminSecondPage adminSecondPage = pagePropertiesAdmin.clickSearch();
         Assert.assertEquals(adminSecondPage.compareCountOfHotels(), true, "Page shows more than one hotel.");
+        Reporter.log("Done", 2, true);
     }
 }

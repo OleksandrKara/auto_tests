@@ -2,27 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jar-files-for-server-execution/selenium-server-standalone-2.39.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/main/BasicSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/InvoicesConfigurationPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationListPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationModifyPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/SearchPropertyBillingConfigurationPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run_hub.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run_node1.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run_node2.bat" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\Custom suite\VenereAutoScripts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\Custom suite\VenereAutoScripts.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\junitreports\TEST-com.epam.tests.MainClass.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\VenereAutoScripts.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\classes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\groups.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\main.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\methods.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\Custom suite\toc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\old\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\test-output\testng.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VenereAutoScripts.iml" afterPath="$PROJECT_DIR$/VenereAutoScripts.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_uncommons_reportng_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_reportng_1_1_4.xml" />
     </list>
     <ignored path="VenereAutoScripts.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainClass.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395762010080" ignored="false" />
-    <file path="/Driver.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395756651281" ignored="false" />
+    <file path="/MainClass.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395836587933" ignored="false" />
+    <file path="/Driver.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395836454296" ignored="false" />
     <file path="/BaseTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395228471476" ignored="false" />
     <file path="/AdmPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678134791" ignored="false" />
-    <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678661749" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764150342" ignored="false" />
+    <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395939909062" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395934192000" ignored="false" />
     <file path="/test.properties" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395679923133" ignored="false" />
     <file path="/LoginPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395575533472" ignored="false" />
     <file path="/PropertiesAdminPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395665906935" ignored="false" />
     <file path="/PropertiesAdminSecondPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395758515748" ignored="false" />
     <file path="/PropertiesAdmin.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678162088" ignored="false" />
-    <file path="/InvoicesConfiguration.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395760217193" ignored="false" />
+    <file path="/InvoicesConfiguration.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1396278812675" ignored="false" />
     <file path="/EligibleCountries.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678357329" ignored="false" />
     <file path="/EligibleCountriesPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678681971" ignored="false" />
-    <file path="/EligibleCountriesSecondPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395764361781" ignored="false" />
+    <file path="/EligibleCountriesSecondPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1396264989249" ignored="false" />
+    <file path="/pom.xml" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395847052849" ignored="false" />
+    <file path="/BasicSteps.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395938141934" ignored="false" />
+    <file path="/InvoicesConfigurationPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395938859277" ignored="false" />
+    <file path="/SearchPropertyBillingConfigurationPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1396264615681" ignored="false" />
+    <file path="/PropertyConfigurationListPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395939893246" ignored="false" />
+    <file path="/PropertyConfigurationModifyPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1396278303368" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +94,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -80,6 +131,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -89,61 +141,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="9" selection-start="801" selection-end="801" vertical-scroll-proportion="0.5521368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesAdmin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="48" selection-start="1280" selection-end="1288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EligibleCountriesSecondPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#EligibleCountriesSecondPage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EligibleCountriesPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoicesConfiguration.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InvoicesConfiguration.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="54" column="115" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.6803419">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="PropertyConfigurationModifyPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationModifyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="888" selection-end="896" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="53" column="10" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,22 +184,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/AdminLinks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesPage.java" />
-        <option value="$PROJECT_DIR$/test.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminSecondPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java" />
+        <option value="$PROJECT_DIR$/test.properties" />
+        <option value="$PROJECT_DIR$/profiles.xml" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/SearchPropertyBillingConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/InvoicesConfigurationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/BasicSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/SearchPropertyBillingConfigurationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationListPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationModifyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
       </list>
     </option>
   </component>
@@ -262,7 +275,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -277,7 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -421,19 +433,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="D:/WebDriver!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/Lecture 6/Demo6" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -442,131 +457,15 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts" />
+      <recent name="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\jar-files-for-server-execution" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.epam.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainClass.authorisationTest">
-    <configuration default="false" name="PropertiesAdmin.searchHotelIdInPropertiesAdmin" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="VenereAutoScripts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.PropertiesAdmin" />
-      <option name="METHOD_NAME" value="searchHotelIdInPropertiesAdmin" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainClass.authorisationTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="VenereAutoScripts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.MainClass" />
-      <option name="METHOD_NAME" value="authorisationTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropertiesAdmin" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="VenereAutoScripts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.PropertiesAdmin" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="InvoicesConfiguration" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="VenereAutoScripts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.InvoicesConfiguration" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50145" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.InvoicesConfiguration.changeHotelInvoiceConfiguration">
     <configuration default="false" name="InvoicesConfiguration.netgiroEligibilityAbility" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="VenereAutoScripts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -578,7 +477,7 @@
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
@@ -587,13 +486,42 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InvoicesConfiguration.changeHotelInvoiceConfiguration" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="VenereAutoScripts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.epam.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tests.InvoicesConfiguration" />
+      <option name="METHOD_NAME" value="changeHotelInvoiceConfiguration" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59375" />
+        <option name="DEBUG_PORT" value="63612" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -617,6 +545,28 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -636,7 +586,7 @@
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
@@ -645,7 +595,7 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
@@ -699,67 +649,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MainClass" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.MainClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="VenereAutoScripts" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainClass" type="TestNG" factoryName="TestNG">
-      <module name="VenereAutoScripts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.MainClass" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="-verbose 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.MainClass" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.PropertiesAdmin.searchHotelIdInPropertiesAdmin" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.MainClass.authorisationTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PropertiesAdmin" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration.netgiroEligibilityAbility" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration.netgiroEligibilityAbility" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration.changeHotelInvoiceConfiguration" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.MainClass.authorisationTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration.changeHotelInvoiceConfiguration" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration.netgiroEligibilityAbility" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.InvoicesConfiguration" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.PropertiesAdmin.searchHotelIdInPropertiesAdmin" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.PropertiesAdmin" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -805,7 +702,11 @@
       <created>1395764154459</created>
       <updated>1395764154459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Invoices Configurations tests had started to cover by automation scripts">
+      <created>1395764479502</created>
+      <updated>1395764479502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -922,119 +823,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/TestNG.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="23" selection-start="11069" selection-end="11069" vertical-scroll-proportion="-7.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/remote/RemoteTestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.33559322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.33275563">
+        <state line="14" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.31965813">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+        <state line="25" column="4" selection-start="551" selection-end="638" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/InvoicesConfigurationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="358" selection-end="358" vertical-scroll-proportion="0.02905983">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/PropertiesAdminSecondPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="124" selection-start="565" selection-end="565" vertical-scroll-proportion="0.36068377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.2357019">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="418" selection-end="418" vertical-scroll-proportion="0.5811966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/uncommons/reportng/1.1.2/reportng-1.1.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.22051282">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="888" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.31965813">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#EligibleCountriesSecondPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="1280" selection-end="1288" vertical-scroll-proportion="0.0">
+        <state line="23" column="4" selection-start="768" selection-end="864" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="9" selection-start="801" selection-end="801" vertical-scroll-proportion="0.5521368">
+        <state line="20" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/PropertiesAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="16" selection-start="2071" selection-end="2072" vertical-scroll-proportion="1.2428571">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/EligibleCountriesSecondPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="26" selection-start="1809" selection-end="1812" vertical-scroll-proportion="0.45357144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.4068376">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.40.0/selenium-api-2.40.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="960" selection-end="960" vertical-scroll-proportion="0.3322034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.40.0/selenium-support-2.40.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="497" selection-end="497" vertical-scroll-proportion="0.2881356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/SearchPropertyBillingConfigurationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="818" selection-end="818" vertical-scroll-proportion="0.44786325">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/BasicSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="693" selection-end="693" vertical-scroll-proportion="0.6803419">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="419" selection-end="419" vertical-scroll-proportion="0.5811966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/PropertyConfigurationModifyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="10" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="115" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.6803419">
           <folding />
         </state>
       </provider>
@@ -1096,7 +1004,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

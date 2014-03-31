@@ -1,0 +1,1 @@
+java -jar "jar-files-for-server-execution\selenium-server-standalone-2.39.0.jar" -role node -port 5543 -Dwebdriver.chrome.driver="chromedriver.exe"

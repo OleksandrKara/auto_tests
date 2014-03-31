@@ -6,10 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
+import java.net.URL;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.Properties;
@@ -27,10 +31,15 @@ public class Driver {
     private Driver() {
     }
 
-    private static WebDriver driver;
+    //private static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static WebDriver getDriver() {
-        return driver;
+        return driver.get();
+    }
+
+    public static void set(WebDriver driverInput) {
+        driver.set(driverInput);
     }
 
     public static boolean isElementPresent(By locator) {
@@ -60,7 +69,7 @@ public class Driver {
         } //Configurations for file properties using
 
 
-
+        WebDriver driver;
 
         switch (System.getProperty("test.browser")) {
             case "firefox":
@@ -69,6 +78,15 @@ public class Driver {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
                 driver = new ChromeDriver();
+                break;
+            case "chrome_hub":
+                DesiredCapabilities capability = DesiredCapabilities.chrome();
+                try {
+                    driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+                } catch (MalformedURLException e1) {
+                    e1.printStackTrace();
+                    throw new AssertionError("Unexpected error during remote WebDriver setup");
+                }
                 break;
             default:
                 throw new AssertionError("Unsupported browser: " + System.getProperty("test.browser"));
@@ -79,6 +97,8 @@ public class Driver {
                 Integer.parseInt(System.getProperty("test.timeout")),
                 TimeUnit.SECONDS
         ); //Configurations for synchronization
+
+        Driver.set(driver);
     }
 
     public static void javaScript(String javaScriptCode){

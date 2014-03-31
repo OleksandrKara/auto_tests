@@ -1,0 +1,1 @@
+java -jar "jar-files-for-server-execution\selenium-server-standalone-2.39.0.jar" -role hub
