@@ -1,6 +1,7 @@
-package com.epam.ui;
+package com.epam.ui.properties_admin;
 
 import com.epam.main.Driver;
+import com.epam.ui.properties_admin.PropertiesAdminSecondPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

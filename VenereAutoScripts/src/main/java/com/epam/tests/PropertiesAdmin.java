@@ -1,11 +1,10 @@
 package com.epam.tests;
 
 import com.epam.main.BaseTest;
+import com.epam.main.BasicSteps;
 import com.epam.main.Driver;
-import com.epam.ui.AdmPage;
-import com.epam.ui.LoginPage;
-import com.epam.ui.PropertiesAdminPage;
-import com.epam.ui.PropertiesAdminSecondPage;
+import com.epam.ui.properties_admin.PropertiesAdminPage;
+import com.epam.ui.properties_admin.PropertiesAdminSecondPage;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -19,14 +18,9 @@ import org.testng.annotations.Test;
  */
 public class PropertiesAdmin extends BaseTest {
     @Test //1. Search for hotel ID in Properties admin
-    public static void searchHotelIdInPropertiesAdmin() {
+    public void searchHotelIdInPropertiesAdmin() {
         final String HOTEL_ID = "705";
-
-        LoginPage page = LoginPage.open();
-        page.enterCredentials(System.getProperty("login"),System.getProperty("password"));
-
-        AdmPage pageAdm = page.clickEnterToAdm();
-        pageAdm.clickToAdmLink("dbadm/index.php");
+        BasicSteps.clickToMenuPoint("dbadm/index.php");
 
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelId(HOTEL_ID);
@@ -41,11 +35,9 @@ public class PropertiesAdmin extends BaseTest {
     }
 
     @Test //1.1. Search for hotel name and city in properties admin
-    public static void simpleSearchHotelIdInPropertiesAdmin(){
-        LoginPage page = LoginPage.open();
-        page.enterCredentials(System.getProperty("login"),System.getProperty("password"));
-        AdmPage pageAdm = page.clickEnterToAdm();
-        pageAdm.clickToAdmLink("dbadm/index.php");
+    public void simpleSearchHotelIdInPropertiesAdmin(){
+        BasicSteps.clickToMenuPoint("dbadm/index.php");
+
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelName("Marconi");
         pagePropertiesAdmin.enterHotelCity("Venezia");

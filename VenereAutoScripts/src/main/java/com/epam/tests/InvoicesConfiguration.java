@@ -2,7 +2,7 @@ package com.epam.tests;
 
 import com.epam.main.BaseTest;
 import com.epam.main.BasicSteps;
-import com.epam.ui.*;
+import com.epam.ui.invoices_configuration.*;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;

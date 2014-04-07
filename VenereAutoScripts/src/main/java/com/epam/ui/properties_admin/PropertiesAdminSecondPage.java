@@ -1,4 +1,4 @@
-package com.epam.ui;
+package com.epam.ui.properties_admin;
 
 import com.epam.main.Driver;
 import org.openqa.selenium.By;

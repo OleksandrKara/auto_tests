@@ -25,6 +25,9 @@
         <module name="VenereAutoScripts" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="VenereAutoScripts" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

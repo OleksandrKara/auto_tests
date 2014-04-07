@@ -1,4 +1,4 @@
-package com.epam.ui;
+package com.epam.ui.invoices_configuration;
 
 import com.epam.main.BasicSteps;
 import com.epam.main.Driver;

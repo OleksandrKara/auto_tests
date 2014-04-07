@@ -29,8 +29,7 @@ public class AdmPage {
     }
 
     public void clickToAdmLink(String urlPart){
-        link = Driver.getDriver().findElement(By.xpath("//a[@href='"+urlPart+"']"));
+        link = Driver.getDriver().findElement(By.xpath("//a[contains(@href,'" + urlPart + "')]"));
         link.click();
-        //return new PropertiesAdminPage();
     }
 }
