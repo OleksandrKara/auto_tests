@@ -40,4 +40,9 @@ public class CreateCreditNoteStep1Page {
         continueButton.click();
         return new CreateCreditNoteStep2Page();
     }
+
+    public ReconciliationListPage clickContinueMr() {
+        continueButton.click();
+        return new ReconciliationListPage();
+    }
 }
