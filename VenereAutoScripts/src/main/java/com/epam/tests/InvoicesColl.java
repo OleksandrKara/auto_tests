@@ -2,6 +2,7 @@ package com.epam.tests;
 
 import com.epam.main.BaseTest;
 import com.epam.main.BasicSteps;
+import com.epam.ui.invoice_collection.InvoiceCollectionMenuPage;
 import org.testng.annotations.Test;
 
 /**
@@ -16,6 +17,8 @@ public class InvoicesColl extends BaseTest {
     public void sendInvoiceReminder(){
         BasicSteps.clickToMenuPoint("invoice_collection/index.php");
 
+        InvoiceCollectionMenuPage invoiceCollectionMenuPage = new InvoiceCollectionMenuPage();
+        invoiceCollectionMenuPage.clickToSearchInvoices();
 
     }
 

@@ -19,6 +19,6 @@ public class BaseTest {
 
     @AfterMethod
     public void cleanup(){
-    //    Driver.tearDown();
+        Driver.tearDown();
     }
 }
