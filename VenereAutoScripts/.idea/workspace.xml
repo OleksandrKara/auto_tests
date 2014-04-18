@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_collection/InvoiceCollectionMenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testng.xml" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__asm_asm_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__cglib_cglib_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__com_google_inject_guice_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__com_objectdb_objectdb_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__javax_inject_javax_inject_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_6_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_aop_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_context_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_context_support_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_core_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_jdbc_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_orm_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_tx_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_web_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_springframework_spring_webmvc_3_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__org_uncommons_reportng_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__velocity_velocity_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__velocity_velocity_dep_1_4.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/main/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesColl.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesColl.java" />
+    <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="Invoices Configurations tests have been updated&#10;CI server has been connected">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VenereAutoScripts.iml" afterPath="$PROJECT_DIR$/VenereAutoScripts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
     </list>
     <ignored path="VenereAutoScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +12,7 @@
     <file path="/BaseTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395228471476" ignored="false" />
     <file path="/AdmPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395678134791" ignored="false" />
     <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1397746771306" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1397829670500" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1397831023485" ignored="false" />
     <file path="/test.properties" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1396436241518" ignored="false" />
     <file path="/LoginPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395575533472" ignored="false" />
     <file path="/PropertiesAdminPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395665906935" ignored="false" />
@@ -99,23 +68,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationModifyPage.java" line="36" class="com.epam.ui.invoices_configuration.PropertyConfigurationModifyPage" package="com.epam.ui.invoices_configuration">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -165,7 +118,7 @@
       <file leaf-file-name="InvoicesConfiguration.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="109" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.64612675">
+            <state line="39" column="11" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.4267442">
               <folding />
             </state>
           </provider>
@@ -174,10 +127,8 @@
       <file leaf-file-name="PropertyConfigurationModifyPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationModifyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="36" column="30" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -339,6 +290,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VenereAutoScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -787,7 +796,11 @@
       <created>1397059251592</created>
       <updated>1397059251592</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Invoices Configurations tests have been updated&#10;CI server has been connected">
+      <created>1397829706578</created>
+      <updated>1397829706578</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -822,7 +835,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31256953" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11152615" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32480535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980605" sideWeight="0.6817667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11953042" sideWeight="0.6751947" order="3" side_tool="false" content_ui="tabs" />
@@ -1011,16 +1024,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationModifyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="36" column="30" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="109" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.64612675">
+        <state line="39" column="11" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.4267442">
           <folding />
         </state>
       </provider>

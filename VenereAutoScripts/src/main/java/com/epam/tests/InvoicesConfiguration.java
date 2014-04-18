@@ -37,7 +37,7 @@ public class InvoicesConfiguration extends BaseTest {
         Reporter.log("Done", 2, true);
     }
 
-    @Test(enabled=false) //Change hotel invoice configuration                     FAILED!!!!!!!!!!!!!!!!!!!!!
+    @Test//(enabled=false) //Change hotel invoice configuration                     FAILED!!!!!!!!!!!!!!!!!!!!!
     public void changeHotelInvoiceConfiguration(){
         String currency = "JPY";
         String additionalCurrency = "USD";
