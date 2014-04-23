@@ -1,7 +1,7 @@
 package com.epam.ui.credit_notes;
 
-import com.epam.main.BasicSteps;
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 5:55 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateCreditNoteStep2Page {
+public class CreateCreditNoteStep2Page extends Page {
 
     String yearElement = "//select[@name='new_year']";
 
@@ -28,7 +28,7 @@ public class CreateCreditNoteStep2Page {
     }
 
     public void setYear(String year) {
-        BasicSteps.selectElementByTheText(yearElement,year);
+        selectElementByTheText(yearElement,year);
     }
 
     public void setInvoiceNumber(String invoiceNumber) {

@@ -1,7 +1,6 @@
 package com.epam.tests;
 
 import com.epam.main.BaseTest;
-import com.epam.main.BasicSteps;
 import com.epam.main.Driver;
 import com.epam.ui.properties_admin.PropertiesAdminPage;
 import com.epam.ui.properties_admin.PropertiesAdminSecondPage;
@@ -20,7 +19,8 @@ public class PropertiesAdmin extends BaseTest {
     @Test //1. Search for hotel ID in Properties admin
     public void searchHotelIdInPropertiesAdmin() {
         final String HOTEL_ID = "705";
-        BasicSteps.clickToMenuPoint("dbadm/index.php");
+
+        clickToMenuPoint("dbadm/index.php");
 
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelId(HOTEL_ID);
@@ -36,7 +36,8 @@ public class PropertiesAdmin extends BaseTest {
 
     @Test //1.1. Search for hotel name and city in properties admin
     public void simpleSearchHotelIdInPropertiesAdmin(){
-        BasicSteps.clickToMenuPoint("dbadm/index.php");
+
+        clickToMenuPoint("dbadm/index.php");
 
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelName("Marconi");

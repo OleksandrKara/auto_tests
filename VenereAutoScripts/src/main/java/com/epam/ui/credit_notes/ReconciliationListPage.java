@@ -1,11 +1,10 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import static com.epam.main.BasicSteps.selectElementByTheText;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +13,7 @@ import static com.epam.main.BasicSteps.selectElementByTheText;
  * Time: 12:18 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ReconciliationListPage {
+public class ReconciliationListPage extends Page {
 
     @FindBy(xpath = "//table[@id='table_mr']/tbody/tr[3]/td[15]/input")
     WebElement selCheckBox;

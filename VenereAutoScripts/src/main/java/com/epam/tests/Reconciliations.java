@@ -1,7 +1,6 @@
 package com.epam.tests;
 
 import com.epam.main.BaseTest;
-import com.epam.main.BasicSteps;
 import com.epam.ui.reconciliations.PropertyReconciliationPage;
 import com.epam.ui.reconciliations.ReconciliationMenuPage;
 import org.testng.annotations.Test;
@@ -17,7 +16,8 @@ public class Reconciliations extends BaseTest {
 
     @Test //4. Searching for a reconciliation
     public void CreateSingleReconciliation(){
-        BasicSteps.clickToMenuPoint("reconciliations/");
+
+        clickToMenuPoint("reconciliations/");
 
         ReconciliationMenuPage reconciliationMenuPage = new ReconciliationMenuPage();
         PropertyReconciliationPage propertyReconciliationPage  = reconciliationMenuPage.clickToPropertyReconciliationsLink();

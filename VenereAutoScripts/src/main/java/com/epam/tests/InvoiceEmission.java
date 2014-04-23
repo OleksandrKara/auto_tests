@@ -1,7 +1,6 @@
 package com.epam.tests;
 
 import com.epam.main.BaseTest;
-import com.epam.main.BasicSteps;
 import com.epam.ui.invoice_emission.*;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -24,7 +23,7 @@ public class InvoiceEmission extends BaseTest {
         String country = "Ukraine";
         String billingGroup = "Second & Monthly";
 
-        BasicSteps.clickToMenuPoint("invoice_emission/index.php");
+        clickToMenuPoint("invoice_emission/index.php");
 
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         QuarterInvoicesEmissionPage quarterInvoicesEmissionPage = invoiceEmissionPage.clickToEmission();
@@ -35,7 +34,7 @@ public class InvoiceEmission extends BaseTest {
         quarterInvoicesEmissionPage.setCountry(country);
         quarterInvoicesEmissionPage.setCreateInvoice();
         quarterInvoicesEmissionPage.createAndInsertInvoices();
-        BasicSteps.acceptConfirmationMessage();
+        quarterInvoicesEmissionPage.acceptConfirmation();
         BackgroundTasksPage backgroundTasksPage = new BackgroundTasksPage();
         backgroundTasksPage.getStartBgTask();
         backgroundTasksPage.getToBgTasks();
@@ -54,7 +53,8 @@ public class InvoiceEmission extends BaseTest {
         String reservationIncluded = "Until last check-out";
         String firstCheckOutDate[] = {"04","August","2013"};
 
-        BasicSteps.clickToMenuPoint("invoice_emission/index.php");
+        clickToMenuPoint("invoice_emission/index.php");
+
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         ManualInvoicePage manualInvoicePage = invoiceEmissionPage.clickToManualInvoicesEmission();
         manualInvoicePage.setHotelId(hotelId);
@@ -74,7 +74,8 @@ public class InvoiceEmission extends BaseTest {
         String text = "It is a string for testing";
         String amountOfMoney = "500";
 
-        BasicSteps.clickToMenuPoint("invoice_emission/index.php");
+        clickToMenuPoint("invoice_emission/index.php");
+
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         ManualInvoicePage manualInvoicePage = invoiceEmissionPage.clickToManualInvoicesEmission();
         manualInvoicePage.setHotelId(hotelId);
@@ -84,7 +85,7 @@ public class InvoiceEmission extends BaseTest {
         manualInvoiceEmissionPage.setAmountOfMoney(amountOfMoney);
         CreateNewInvoicePage newInvoicePage = manualInvoiceEmissionPage.clickToButton();
         newInvoicePage.clickCreateInvoiceButton();
-        BasicSteps.acceptConfirmationMessage();
+        newInvoicePage.acceptConfirmation();
         CreatedManualInvoicesPage createdManualInvoicesPage = new CreatedManualInvoicesPage();
         createdManualInvoicesPage.clickViewInvoice();
     }

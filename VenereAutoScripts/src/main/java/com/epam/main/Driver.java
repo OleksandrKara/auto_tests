@@ -1,21 +1,17 @@
 package com.epam.main;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
-import java.net.URL;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Enumeration;
-import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -40,13 +36,6 @@ public class Driver {
 
     public static void set(WebDriver driverInput) {
         driver.set(driverInput);
-    }
-
-    public static boolean isElementPresent(By locator) {
-        getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-        List<WebElement> elements = getDriver().findElements(locator);
-        getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        return elements.size() > 0 && elements.get(0).isDisplayed();
     }
 
     public static void init() {
@@ -101,9 +90,6 @@ public class Driver {
         Driver.set(driver);
     }
 
-    public static void javaScript(String javaScriptCode){
-        ((JavascriptExecutor) getDriver()).executeScript(javaScriptCode);
-    }
 
     public static void tearDown() {
         Driver.getDriver().quit();

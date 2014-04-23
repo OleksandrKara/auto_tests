@@ -1,14 +1,11 @@
 package com.epam.ui.invoice_emission;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import static com.epam.main.BasicSteps.deselectAllAndSelectElementByTheText;
-import static com.epam.main.BasicSteps.selectElementByTheText;
-import static com.epam.main.Driver.isElementPresent;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,7 +14,7 @@ import static com.epam.main.Driver.isElementPresent;
  * Time: 12:33 PM
  * To change this template use File | Settings | File Templates.
  */
-public class QuarterInvoicesEmissionPage {
+public class QuarterInvoicesEmissionPage extends Page {
 
     private String locatorOfCompany = "//td/select[@name = 'venere_company_id']";
     private String locatorOfStartDate = "//select[@name = 'from_mm']";
@@ -36,6 +33,10 @@ public class QuarterInvoicesEmissionPage {
 
     public QuarterInvoicesEmissionPage() {
         PageFactory.initElements(Driver.getDriver(), this);
+    }
+
+    public void acceptConfirmation(){
+        acceptConfirmationMessage();
     }
 
     public void selectTheCompany(String company) {

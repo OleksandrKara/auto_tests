@@ -1,11 +1,10 @@
 package com.epam.ui.invoice_emission;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import static com.epam.main.BasicSteps.selectElementByTheText;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +13,7 @@ import static com.epam.main.BasicSteps.selectElementByTheText;
  * Time: 4:18 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ManualInvoiceEmissionPage {
+public class ManualInvoiceEmissionPage extends Page {
 
     @FindBy(xpath = "//input[@type='Radio'][@value=1][@name='reservation']")
     WebElement radioButtonForReservation;

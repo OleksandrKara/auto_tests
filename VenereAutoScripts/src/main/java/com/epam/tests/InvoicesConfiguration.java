@@ -1,7 +1,6 @@
 package com.epam.tests;
 
 import com.epam.main.BaseTest;
-import com.epam.main.BasicSteps;
 import com.epam.ui.invoices_configuration.*;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -26,13 +25,14 @@ public class InvoicesConfiguration extends BaseTest {
 
     @Test //1. Change netgiro eligibility and ability
     public void netgiroEligibilityAbility(){
-        BasicSteps.clickToMenuPoint("payment/index.php?action=list_country_eligibility");
+
+        clickToMenuPoint("payment/index.php?action=list_country_eligibility");
 
         EligibleCountriesPage firstPage = new EligibleCountriesPage();
         EligibleCountriesSecondPage secondPage = firstPage.selectTheMethod();
         secondPage.selectTheCountry(TESTING_COUNTRY); // Method will update the country list if the TESTING_COUNTRY wasn't found
         secondPage.clickAddTheCountry();
-        BasicSteps.acceptConfirmationMessage();
+        secondPage.acceptConfirmation();
         Assert.assertTrue(secondPage.listOfCountriesContainsCountry(TESTING_COUNTRY), "The list of countries doesn't contain the country that has been added before.");
         Reporter.log("Done", 2, true);
     }
@@ -44,7 +44,8 @@ public class InvoicesConfiguration extends BaseTest {
         String company = "Expedia Brazil";
         String additionalCompany = "Venere UK Limited";
 
-        BasicSteps.clickToMenuPoint("invoice_configuration/index.php");
+        clickToMenuPoint("invoice_configuration/index.php");
+
         InvoicesConfigurationPage invoicesConfigurationPage = new InvoicesConfigurationPage();
         SearchPropertyBillingConfigurationPage searchPropertyBillingConfigurationPage = invoicesConfigurationPage.clickSearchLink();
         searchPropertyBillingConfigurationPage.enterHotelId("968");
@@ -54,7 +55,7 @@ public class InvoicesConfiguration extends BaseTest {
         company = propertyConfigurationModifyPage.selectVenereCompany(company, additionalCompany); //in ase if 'Expedia Brazil' already checked will use additional
         currency = propertyConfigurationModifyPage.selectCurrency(currency, additionalCurrency); //in case if 'JPY' already checked will use additional
         propertyConfigurationModifyPage.clickModify();
-        BasicSteps.acceptConfirmationMessage();
+        propertyConfigurationModifyPage.acceptConfirmation();
         Assert.assertEquals(propertyConfigurationModifyPage.ifElementIsChecked(currency),true,"Currency haven't switched");
         Assert.assertEquals(propertyConfigurationModifyPage.ifElementIsChecked(company),true,"Company haven't switched");
         Reporter.log("Done", 2, true);

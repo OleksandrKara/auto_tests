@@ -1,12 +1,10 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import static com.epam.main.BasicSteps.acceptConfirmationMessage;
-import static com.epam.main.BasicSteps.selectElementByTheText;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,7 +13,7 @@ import static com.epam.main.BasicSteps.selectElementByTheText;
  * Time: 6:11 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateCreditNoteReservationPage {
+public class CreateCreditNoteReservationPage extends Page {
 
     @FindBy (xpath = "//textarea[@name='cn_notes']")
     WebElement textarea;

@@ -1,6 +1,7 @@
 package com.epam.ui.invoice_emission;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 4:39 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateNewInvoicePage {
+public class CreateNewInvoicePage extends Page {
 
     @FindBy (xpath = "//input[@class='submit'][@type='Submit']")
     WebElement createTheInvoiceButton;
@@ -23,5 +24,9 @@ public class CreateNewInvoicePage {
 
     public void clickCreateInvoiceButton() {
         createTheInvoiceButton.click();
+    }
+
+    public void acceptConfirmation() {
+        acceptConfirmationMessage();
     }
 }

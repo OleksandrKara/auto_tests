@@ -1,5 +1,7 @@
 package com.epam.main;
 
+import com.epam.ui.AdmPage;
+import com.epam.ui.LoginPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -20,5 +22,16 @@ public class BaseTest {
     @AfterMethod
     public void cleanup(){
         Driver.tearDown();
+    }
+
+    public static void clickToMenuPoint(String linkToMenuPoint){
+        AdmPage page =  loginIn();
+        page.clickToAdmLink(linkToMenuPoint);
+    }
+
+    public static AdmPage loginIn(){
+        LoginPage page = LoginPage.open();
+        page.enterCredentials(System.getProperty("login"),System.getProperty("password"));
+        return page.clickEnterToAdm();
     }
 }

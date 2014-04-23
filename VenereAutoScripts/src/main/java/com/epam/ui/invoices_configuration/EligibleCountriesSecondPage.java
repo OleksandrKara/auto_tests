@@ -1,7 +1,7 @@
 package com.epam.ui.invoices_configuration;
 
-import com.epam.main.BasicSteps;
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 6:31 PM
  * To change this template use File | Settings | File Templates.
  */
-public class EligibleCountriesSecondPage {
+public class EligibleCountriesSecondPage extends Page {
 
     /*@FindBy(xpath = "//select[@id = 'countries_to_add']/option[contains(text(),'Australia')]")
     WebElement selectedCountry;*/
@@ -33,6 +33,10 @@ public class EligibleCountriesSecondPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+    public void acceptConfirmation(){
+        acceptConfirmationMessage();
+    }
+
     public void selectTheCountry(String countryName) {
         checkThatCountryIsNotAddedToTheMainList(countryName);
         WebElement selectedCountry = Driver.getDriver().findElement(By.xpath("//select[@id = 'countries_to_add']/option[contains(text(),\'"+countryName+"\')]"));
@@ -45,7 +49,7 @@ public class EligibleCountriesSecondPage {
             WebElement removeCheckbox = Driver.getDriver().findElement(By.xpath("//li[div[text()=\'"+countryName+"\']]/div[@class = 'remove checkbox']"));
             removeCheckbox.click();
             deleteButton.click();
-            BasicSteps.acceptConfirmationMessage();
+            acceptConfirmationMessage();
         }
     }
 
@@ -54,6 +58,6 @@ public class EligibleCountriesSecondPage {
     }
 
     public boolean listOfCountriesContainsCountry(String countryName) {
-        return Driver.isElementPresent(By.xpath("//*[@id='added_country_list']/li/div[contains(text(), \'"+countryName+"\')]"));
+        return isElementPresent(By.xpath("//*[@id='added_country_list']/li/div[contains(text(), \'"+countryName+"\')]"));
     }
 }

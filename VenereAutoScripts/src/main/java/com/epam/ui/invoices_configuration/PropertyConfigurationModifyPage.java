@@ -1,6 +1,7 @@
 package com.epam.ui.invoices_configuration;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,10 +16,7 @@ import org.openqa.selenium.support.ui.Select;
  * Time: 7:05 PM
  * To change this template use File | Settings | File Templates.
  */
-public class PropertyConfigurationModifyPage {
-
-    /*private WebElement companyElement;
-    private WebElement currencyElement;*/
+public class PropertyConfigurationModifyPage extends Page {
 
     @FindBy (xpath = "//tr/td/input[@class='submit'][@type='submit']")
     WebElement modifyButton;
@@ -29,7 +27,7 @@ public class PropertyConfigurationModifyPage {
 
     public String selectVenereCompany(String company, String additionCompany){
         Select select = new Select(Driver.getDriver().findElement(By.xpath("//select[@name='venere_company_id']")));
-        if (Driver.isElementPresent(By.xpath("//select[@name='venere_company_id']/option[@label = \'"+company+"\'][@selected='selected']")) == true){
+        if (isElementPresent(By.xpath("//select[@name='venere_company_id']/option[@label = \'"+company+"\'][@selected='selected']")) == true){
             company = additionCompany;
         }
         select.selectByVisibleText(company);
@@ -39,7 +37,7 @@ public class PropertyConfigurationModifyPage {
 
     public String selectCurrency(String currency, String additionalCurrency){
         Select select = new Select(Driver.getDriver().findElement(By.xpath("//select[@id = 'currency']")));
-        if (Driver.isElementPresent(By.xpath("//select[@name='currency']/option[@value = \'"+currency+"\'][@selected='selected']")) == true){
+        if (isElementPresent(By.xpath("//select[@name='currency']/option[@value = \'"+currency+"\'][@selected='selected']")) == true){
             currency = additionalCurrency;
         }
         select.selectByVisibleText(currency);
@@ -52,6 +50,10 @@ public class PropertyConfigurationModifyPage {
     }
 
     public boolean ifElementIsChecked(String variable) {
-        return Driver.isElementPresent(By.xpath("//tbody/tr[2]/td[text() = \'"+variable+"\']"));
+        return isElementPresent(By.xpath("//tbody/tr[2]/td[text() = \'"+variable+"\']"));
+    }
+
+    public void acceptConfirmation() {
+        acceptConfirmationMessage();
     }
 }
