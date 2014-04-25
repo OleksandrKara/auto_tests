@@ -17,9 +17,10 @@ import org.testng.annotations.Test;
 public class MainClass extends BaseTest {
     @Test //Simple test for login
     public static void authorisationTest() {
-        LoginPage page = LoginPage.open();
-        page.enterCredentials(System.getProperty("login"),System.getProperty("password"));
-        AdmPage pageAdm = page.clickEnterToAdm();
+        LoginPage loginPage = new LoginPage();
+        loginPage.open();
+        loginPage.enterCredentials(System.getProperty("test.login"),System.getProperty("test.password"));
+        AdmPage pageAdm = loginPage.clickEnterToAdm();
         Assert.assertTrue(pageAdm.getValue().getText().equalsIgnoreCase("LOGOUT"),
                 "Logout message wasn't found");
         Reporter.log("Done", 2, true);

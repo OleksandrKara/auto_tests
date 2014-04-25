@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.ui.reconciliations.PropertyReconciliationPage;
 import com.epam.ui.reconciliations.ReconciliationMenuPage;
@@ -17,7 +18,7 @@ public class Reconciliations extends BaseTest {
     @Test //4. Searching for a reconciliation
     public void CreateSingleReconciliation(){
 
-        clickToMenuPoint("reconciliations/");
+       loginSteps(AppLinks.RECONCILIATIONS);
 
         ReconciliationMenuPage reconciliationMenuPage = new ReconciliationMenuPage();
         PropertyReconciliationPage propertyReconciliationPage  = reconciliationMenuPage.clickToPropertyReconciliationsLink();

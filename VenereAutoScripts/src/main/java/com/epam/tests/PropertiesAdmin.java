@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.main.Driver;
 import com.epam.ui.properties_admin.PropertiesAdminPage;
@@ -20,7 +21,7 @@ public class PropertiesAdmin extends BaseTest {
     public void searchHotelIdInPropertiesAdmin() {
         final String HOTEL_ID = "705";
 
-        clickToMenuPoint("dbadm/index.php");
+        loginSteps(AppLinks.PROPERTIES_ADMIN_URL);
 
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelId(HOTEL_ID);
@@ -37,7 +38,7 @@ public class PropertiesAdmin extends BaseTest {
     @Test //1.1. Search for hotel name and city in properties admin
     public void simpleSearchHotelIdInPropertiesAdmin(){
 
-        clickToMenuPoint("dbadm/index.php");
+        loginSteps(AppLinks.PROPERTIES_ADMIN_URL);
 
         PropertiesAdminPage pagePropertiesAdmin = new PropertiesAdminPage();
         pagePropertiesAdmin.enterHotelName("Marconi");

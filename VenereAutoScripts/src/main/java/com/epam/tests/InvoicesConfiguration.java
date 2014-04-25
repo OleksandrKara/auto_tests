@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.ui.invoices_configuration.*;
 import org.testng.Assert;
@@ -26,7 +27,7 @@ public class InvoicesConfiguration extends BaseTest {
     @Test //1. Change netgiro eligibility and ability
     public void netgiroEligibilityAbility(){
 
-        clickToMenuPoint("payment/index.php?action=list_country_eligibility");
+        loginSteps(AppLinks.ELIGIBLE_COUNTRIES_MANAGEMENT);
 
         EligibleCountriesPage firstPage = new EligibleCountriesPage();
         EligibleCountriesSecondPage secondPage = firstPage.selectTheMethod();
@@ -44,7 +45,7 @@ public class InvoicesConfiguration extends BaseTest {
         String company = "Expedia Brazil";
         String additionalCompany = "Venere UK Limited";
 
-        clickToMenuPoint("invoice_configuration/index.php");
+        loginSteps(AppLinks.INVOICES_CONFIGURATION_URL);
 
         InvoicesConfigurationPage invoicesConfigurationPage = new InvoicesConfigurationPage();
         SearchPropertyBillingConfigurationPage searchPropertyBillingConfigurationPage = invoicesConfigurationPage.clickSearchLink();

@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.ui.invoice_collection.InvoiceCollectionMenuPage;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ public class InvoicesColl extends BaseTest {
     @Test // 1.Send invoice reminder
     public void sendInvoiceReminder(){
 
-        clickToMenuPoint("invoice_collection/index.php");
+        loginSteps(AppLinks.INVOICES_COLLECTION_URL);
 
         InvoiceCollectionMenuPage invoiceCollectionMenuPage = new InvoiceCollectionMenuPage();
         invoiceCollectionMenuPage.clickToSearchInvoices();

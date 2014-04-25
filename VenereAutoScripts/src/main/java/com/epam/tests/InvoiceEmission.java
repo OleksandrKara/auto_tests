@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.ui.invoice_emission.*;
 import org.testng.Assert;
@@ -23,7 +24,7 @@ public class InvoiceEmission extends BaseTest {
         String country = "Ukraine";
         String billingGroup = "Second & Monthly";
 
-        clickToMenuPoint("invoice_emission/index.php");
+        loginSteps(AppLinks.INVOICES_EMISSION_URL);
 
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         QuarterInvoicesEmissionPage quarterInvoicesEmissionPage = invoiceEmissionPage.clickToEmission();
@@ -53,7 +54,7 @@ public class InvoiceEmission extends BaseTest {
         String reservationIncluded = "Until last check-out";
         String firstCheckOutDate[] = {"04","August","2013"};
 
-        clickToMenuPoint("invoice_emission/index.php");
+        loginSteps(AppLinks.INVOICES_EMISSION_URL);
 
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         ManualInvoicePage manualInvoicePage = invoiceEmissionPage.clickToManualInvoicesEmission();
@@ -74,7 +75,7 @@ public class InvoiceEmission extends BaseTest {
         String text = "It is a string for testing";
         String amountOfMoney = "500";
 
-        clickToMenuPoint("invoice_emission/index.php");
+        loginSteps(AppLinks.INVOICES_EMISSION_URL);
 
         InvoiceEmissionPage invoiceEmissionPage = new InvoiceEmissionPage();
         ManualInvoicePage manualInvoicePage = invoiceEmissionPage.clickToManualInvoicesEmission();
@@ -89,10 +90,4 @@ public class InvoiceEmission extends BaseTest {
         CreatedManualInvoicesPage createdManualInvoicesPage = new CreatedManualInvoicesPage();
         createdManualInvoicesPage.clickViewInvoice();
     }
-
-
-
-
-
-
 }

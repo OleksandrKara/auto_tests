@@ -27,12 +27,11 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public static LoginPage open() {
+    public void open() {
         Driver.getDriver().get(System.getProperty("test.baseURL"));
-        return new LoginPage();
     }
 
-    public void enterCredentials(String log, String pass){
+    public void enterCredentials(String log, String pass) {
         this.login.sendKeys(log);
         this.password.sendKeys(pass);
     }
@@ -42,5 +41,15 @@ public class LoginPage {
         return new AdmPage();
     }
 
+    public void invoke() {
+        open();
+    }
+
+
+    /*public AdmPage loginIn() {
+        open();
+        enterCredentials(System.getProperty("login"),System.getProperty("password"));
+        return clickEnterToAdm();
+    }*/
 
 }

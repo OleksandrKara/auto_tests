@@ -32,4 +32,16 @@ public class AdmPage {
         link = Driver.getDriver().findElement(By.xpath("//a[contains(@href,'" + urlPart + "')]"));
         link.click();
     }
+
+    public  void clickToMenuPoint(String linkToMenuPoint) {
+        clickToAdmLink(linkToMenuPoint);
+    }
+
+    public void invoke()
+    {
+        LoginPage loginPage = new LoginPage();
+        loginPage.invoke();
+        loginPage.enterCredentials(System.getProperty("test.login"),System.getProperty("test.password"));
+        loginPage.clickEnterToAdm();
+    }
 }

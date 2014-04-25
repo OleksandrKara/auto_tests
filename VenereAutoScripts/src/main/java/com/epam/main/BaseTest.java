@@ -13,7 +13,6 @@ import org.testng.annotations.BeforeMethod;
  * To change this template use File | Settings | File Templates.
  */
 public class BaseTest {
-
     @BeforeMethod
     public void initialization(){
         Driver.init();
@@ -24,14 +23,11 @@ public class BaseTest {
         Driver.tearDown();
     }
 
-    public static void clickToMenuPoint(String linkToMenuPoint){
-        AdmPage page =  loginIn();
-        page.clickToAdmLink(linkToMenuPoint);
-    }
-
-    public static AdmPage loginIn(){
-        LoginPage page = LoginPage.open();
-        page.enterCredentials(System.getProperty("login"),System.getProperty("password"));
-        return page.clickEnterToAdm();
+    protected void loginSteps(String appLink){
+        LoginPage loginPage = new LoginPage();
+        loginPage.open();
+        loginPage.enterCredentials(System.getProperty("test.login"),System.getProperty("test.password"));
+        AdmPage admPage = loginPage.clickEnterToAdm();
+        admPage.clickToMenuPoint(appLink);
     }
 }

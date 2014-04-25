@@ -1,5 +1,6 @@
 package com.epam.tests;
 
+import com.epam.data.AppLinks;
 import com.epam.main.BaseTest;
 import com.epam.ui.credit_notes.*;
 import org.testng.annotations.Test;
@@ -25,7 +26,7 @@ public class CreditNotes extends BaseTest {
         String amount = "500";
         String partialOrTotal = "Partial";
 
-        clickToMenuPoint("credit_notes/");
+        loginSteps(AppLinks.CREDIT_NOTES_URL);
 
         CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
         CreateCreditNoteStep1Page createCreditNoteStep1Page = creditNotesMenuPage.clickCreateNoteLink();
@@ -50,7 +51,7 @@ public class CreditNotes extends BaseTest {
     public void createCreditNoteMr(){
         String creditNoteType = "MR";
 
-        clickToMenuPoint("credit_notes/");
+        loginSteps(AppLinks.CREDIT_NOTES_URL);
 
         CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
         CreateCreditNoteStep1Page createCreditNoteStep1Page = creditNotesMenuPage.clickCreateNoteLink();
@@ -67,7 +68,7 @@ public class CreditNotes extends BaseTest {
     @Test //2. Credit Note reversation
     public void creditNoteRevers(){
 
-        clickToMenuPoint("credit_notes/");
+        loginSteps(AppLinks.CREDIT_NOTES_URL);
 
         CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
         CreateCreditNoteStep1Page createCreditNoteStep1Page = creditNotesMenuPage.clickCreateNoteLink();

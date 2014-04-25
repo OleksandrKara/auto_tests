@@ -1,7 +1,9 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Driver;
+import com.epam.main.ExpectedResultsInterface;
 import com.epam.main.Page;
+import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +16,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 4:29 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateCreditNoteStep1Page extends Page {
+public class CreateCreditNoteStep1Page extends Page implements ExpectedResultsInterface {
 
     String creditNoteLink = "//select[@name = 'venere_company']";
     String creditNoteTypeElement;
@@ -43,5 +45,18 @@ public class CreateCreditNoteStep1Page extends Page {
     public ReconciliationListPage clickContinueMr() {
         continueButton.click();
         return new ReconciliationListPage();
+    }
+
+    public void invoke() {
+        /*AdmPage adminPage = new AdmPage();
+        adminPage.invoke();
+        adminPage.clickToMenuPoint(AppLinks.CREDIT_NOTES_URL);*/
+        CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
+        creditNotesMenuPage.invoke();
+        creditNotesMenuPage.clickCreateNoteLink();
+    }
+
+    public void verifyExpectedControls() {
+        Assert.assertTrue("Comments", continueButton.isDisplayed());
     }
 }

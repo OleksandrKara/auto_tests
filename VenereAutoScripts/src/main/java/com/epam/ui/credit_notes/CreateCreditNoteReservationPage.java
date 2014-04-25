@@ -1,7 +1,9 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Driver;
+import com.epam.main.ExpectedResultsInterface;
 import com.epam.main.Page;
+import junit.framework.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -13,7 +15,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 6:11 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateCreditNoteReservationPage extends Page {
+public class CreateCreditNoteReservationPage extends Page implements ExpectedResultsInterface {
 
     @FindBy (xpath = "//textarea[@name='cn_notes']")
     WebElement textarea;
@@ -63,5 +65,17 @@ public class CreateCreditNoteReservationPage extends Page {
 
     public void confirmation() {
         acceptConfirmationMessage();
+    }
+
+    public void invoke() {
+        /*AdmPage adminPage = new AdmPage();
+        adminPage.invoke();
+        adminPage.clickToMenuPoint(AppLinks.CREDIT_NOTES_URL);*/
+    }
+
+    public void verifyExpectedControls() {
+        Assert.assertTrue("Textarea locator is broken", textarea.isDisplayed());
+        Assert.assertTrue("AmountField locator is broken", amountField.isDisplayed());
+        Assert.assertTrue("CreateButton locator is broken", createButton.isDisplayed());
     }
 }
