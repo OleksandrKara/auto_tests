@@ -1,12 +1,12 @@
 package com.epam.ui.credit_notes;
 
-import com.epam.main.Driver;
-import com.epam.main.ExpectedResultsInterface;
 import com.epam.main.Page;
-import junit.framework.Assert;
+import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -32,9 +32,6 @@ public class CreateCreditNoteReservationPage extends Page implements ExpectedRes
     String yearElement = "//select[@name = 'e_yy']";
     String bankElement = "//select[@name = 'venere_bank_id']";
 
-    public CreateCreditNoteReservationPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void fillIn(String testString) {
         textarea.sendKeys(testString);
@@ -67,15 +64,26 @@ public class CreateCreditNoteReservationPage extends Page implements ExpectedRes
         acceptConfirmationMessage();
     }
 
+    @Override
     public void invoke() {
-        /*AdmPage adminPage = new AdmPage();
-        adminPage.invoke();
-        adminPage.clickToMenuPoint(AppLinks.CREDIT_NOTES_URL);*/
+        String year = "2012";
+        String invoiceNumber = "20106365";
+        CreateCreditNoteStep2Page createCreditNoteStep2Page = new CreateCreditNoteStep2Page();
+        createCreditNoteStep2Page.setYear(year);
+        createCreditNoteStep2Page.setInvoiceNumber(invoiceNumber);
+        createCreditNoteStep2Page.clickContinue();
     }
 
-    public void verifyExpectedControls() {
-        Assert.assertTrue("Textarea locator is broken", textarea.isDisplayed());
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(textarea);
+                add(amountField);
+            }
+        /*Assert.assertTrue("Textarea locator is broken", textarea.isDisplayed());
         Assert.assertTrue("AmountField locator is broken", amountField.isDisplayed());
-        Assert.assertTrue("CreateButton locator is broken", createButton.isDisplayed());
+        Assert.assertTrue("CreateButton locator is broken", createButton.isDisplayed());*/
+        };
     }
 }

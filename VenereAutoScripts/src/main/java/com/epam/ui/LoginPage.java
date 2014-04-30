@@ -1,9 +1,13 @@
 package com.epam.ui;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
+import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +16,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 15:14
  * To change this template use File | Settings | File Templates.
  */
-public class LoginPage {
+public class LoginPage extends Page implements ExpectedResultsInterface {
 
     @FindBy(id="flogin")
     WebElement login;
@@ -23,21 +27,17 @@ public class LoginPage {
     @FindBy(css = "input[type=\"submit\"]")
     WebElement button;
 
-    public LoginPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
-
     public void open() {
         Driver.getDriver().get(System.getProperty("test.baseURL"));
     }
 
     public void enterCredentials(String log, String pass) {
-        this.login.sendKeys(log);
-        this.password.sendKeys(pass);
+        type(login, log);
+        type(password, pass);
     }
 
     public AdmPage clickEnterToAdm() {
-        this.button.click();
+        button.click();
         return new AdmPage();
     }
 
@@ -45,11 +45,18 @@ public class LoginPage {
         open();
     }
 
-
-    /*public AdmPage loginIn() {
-        open();
-        enterCredentials(System.getProperty("login"),System.getProperty("password"));
-        return clickEnterToAdm();
-    }*/
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(login);
+                add(password);
+                add(button);
+            }
+        };
+        /*Assert.assertTrue("Comments", login.isDisplayed());
+        Assert.assertTrue("Comments", password.isDisplayed());
+        Assert.assertTrue("Comments", button.isDisplayed());*/
+    }
 
 }

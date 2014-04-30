@@ -1,9 +1,8 @@
 package com.epam.ui.invoices_configuration;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,14 +11,9 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 6:27 PM
  * To change this template use File | Settings | File Templates.
  */
-public class EligibleCountriesPage {
+public class EligibleCountriesPage extends Page {
     @FindBy(xpath = "//form/select[@name = 'paymentmethod_reference']/option[3]")
     WebElement method;
-
-    public EligibleCountriesPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
-
 
     public EligibleCountriesSecondPage selectTheMethod() {
         method.click();

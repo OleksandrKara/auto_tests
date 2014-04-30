@@ -1,9 +1,8 @@
 package com.epam.ui.invoices_configuration;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 6:47 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SearchPropertyBillingConfigurationPage {
+public class SearchPropertyBillingConfigurationPage extends Page {
 
     @FindBy (xpath = "//tr/td/input[@name = 'property_id']")
     WebElement hotelIdElement;
@@ -22,10 +21,6 @@ public class SearchPropertyBillingConfigurationPage {
 
     @FindBy (xpath="//td/input[@class='submit'][@type='submit']")
     WebElement searchButton;
-
-    public SearchPropertyBillingConfigurationPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void enterHotelId(String hotelId) {
         hotelIdElement.sendKeys(hotelId);

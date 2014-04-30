@@ -67,9 +67,7 @@ public class CreditNotes extends BaseTest {
 
     @Test //2. Credit Note reversation
     public void creditNoteRevers(){
-
         loginSteps(AppLinks.CREDIT_NOTES_URL);
-
         CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
         CreateCreditNoteStep1Page createCreditNoteStep1Page = creditNotesMenuPage.clickCreateNoteLink();
     }

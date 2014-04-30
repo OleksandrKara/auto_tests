@@ -1,10 +1,12 @@
 package com.epam.ui.credit_notes;
 
-import com.epam.main.Driver;
 import com.epam.main.Page;
+import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,7 +15,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 5:55 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreateCreditNoteStep2Page extends Page {
+public class CreateCreditNoteStep2Page extends Page implements ExpectedResultsInterface {
 
     String yearElement = "//select[@name='new_year']";
 
@@ -22,10 +24,6 @@ public class CreateCreditNoteStep2Page extends Page {
 
     @FindBy (xpath = "//input[@type='Submit']")
     WebElement continueButton;
-
-    public CreateCreditNoteStep2Page () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void setYear(String year) {
         selectElementByTheText(yearElement,year);
@@ -40,4 +38,25 @@ public class CreateCreditNoteStep2Page extends Page {
         return new CreateCreditNoteReservationPage();
     }
 
+    @Override
+    public void invoke() {
+        final String VENERE_COMPANY = "Venere UK";
+        String creditNoteType = "AD";
+        CreateCreditNoteStep1Page createCreditNoteStep1Page = new CreateCreditNoteStep1Page();
+        createCreditNoteStep1Page.selectVenereCompany(VENERE_COMPANY);
+        createCreditNoteStep1Page.selectType(creditNoteType);
+        createCreditNoteStep1Page.clickContinue();
+    }
+
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(invoiceNumberElement);
+                add(continueButton);
+            }
+        };
+        /*Assert.assertTrue("Textarea locator is broken", invoiceNumberElement.isDisplayed());
+        Assert.assertTrue("Textarea locator is broken", continueButton.isDisplayed());*/
+    }
 }

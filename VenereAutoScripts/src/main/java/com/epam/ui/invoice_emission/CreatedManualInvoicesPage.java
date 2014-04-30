@@ -1,9 +1,8 @@
 package com.epam.ui.invoice_emission;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,14 +11,10 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 5:13 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CreatedManualInvoicesPage {
+public class CreatedManualInvoicesPage extends Page {
 
     @FindBy(xpath = "//a[contains(@href,'show_form_invoice')]")
     WebElement linkInvoice;
-
-    public CreatedManualInvoicesPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void clickViewInvoice() {
         linkInvoice.click();

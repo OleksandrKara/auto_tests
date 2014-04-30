@@ -1,9 +1,8 @@
 package com.epam.ui.reconciliations;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,13 +11,9 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 3:38 PM
  * To change this template use File | Settings | File Templates.
  */
-public class PropertyReconciliationPage {
+public class PropertyReconciliationPage extends Page {
     @FindBy(xpath = "//tbody/tr[3]/td/input")
     WebElement searchButton;
-
-    public PropertyReconciliationPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void clickSearch() {
         searchButton.click();

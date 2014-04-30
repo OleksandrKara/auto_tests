@@ -1,9 +1,8 @@
 package com.epam.ui.invoices_configuration;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,14 +11,10 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 6:54 PM
  * To change this template use File | Settings | File Templates.
  */
-public class PropertyConfigurationListPage {
+public class PropertyConfigurationListPage extends Page {
 
     @FindBy (xpath = "//tr/td/input[@class='submit'][@type='submit']")
     WebElement modifyButton;
-
-    public PropertyConfigurationListPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public PropertyConfigurationModifyPage clickToModifyButton() {
         modifyButton.click();

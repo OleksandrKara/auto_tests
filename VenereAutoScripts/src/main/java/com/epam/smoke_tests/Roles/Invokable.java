@@ -1,13 +1,13 @@
-package com.epam.main;
+package com.epam.smoke_tests.Roles;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Oleksandr_Kara
- * Date: 4/24/14
- * Time: 3:54 PM
+ * Date: 4/30/14
+ * Time: 3:10 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface ExpectedResultsInterface {
+public interface Invokable {
     void invoke();
-    void verifyExpectedControls();
+    //boolean exists();
 }

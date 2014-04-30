@@ -1,9 +1,8 @@
 package com.epam.ui.invoice_collection;
 
-import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,14 +11,10 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 12:40 PM
  * To change this template use File | Settings | File Templates.
  */
-public class InvoiceCollectionMenuPage {
+public class InvoiceCollectionMenuPage extends Page {
 
     @FindBy(xpath = "//a[contains(@href,'invoice_collection_search_invoices')]")
     WebElement invoicesFaxEmailButton;
-
-    public InvoiceCollectionMenuPage(){
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void clickToSearchInvoices() {
         invoicesFaxEmailButton.click();

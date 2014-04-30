@@ -1,10 +1,8 @@
 package com.epam.ui.invoice_emission;
 
-import com.epam.main.Driver;
 import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -34,10 +32,6 @@ public class ManualInvoiceEmissionPage extends Page {
     private String firstCheckOutDayElement = "//select[@name = 'from_dd']";
     private String firstCheckOutMonthElement = "//select[@name = 'from_mm']";
     private String firstCheckOutYearElement = "//select[@name = 'from_yy']";
-
-    public ManualInvoiceEmissionPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void setInvoiceDate(String[] invoiceDate) {
         selectElementByTheText(invoiceDateDayElement, invoiceDate[0]);

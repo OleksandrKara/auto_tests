@@ -1,9 +1,9 @@
 package com.epam.ui.invoice_emission;
 
 import com.epam.main.Driver;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,17 +12,13 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 12:56 PM
  * To change this template use File | Settings | File Templates.
  */
-public class BackgroundTasksPage {
+public class BackgroundTasksPage extends Page {
 
     @FindBy (xpath = "//tr[3]/td/input[@value='Show form']")
     WebElement showFormButton;
 
     @FindBy (xpath = "//input[@name='submit'][@type='submit']")
     WebElement startButton;
-
-    public BackgroundTasksPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void getStartBgTask() {
         Driver.getDriver().get(System.getProperty("test.startBackgroundTask"));

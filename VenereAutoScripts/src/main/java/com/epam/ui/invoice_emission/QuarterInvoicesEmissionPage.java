@@ -1,11 +1,9 @@
 package com.epam.ui.invoice_emission;
 
-import com.epam.main.Driver;
 import com.epam.main.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,18 +20,11 @@ public class QuarterInvoicesEmissionPage extends Page {
     private String locatorCountry = "//select[@id='country_geo_id_array']";
     private String locatorBillingGroup = "//select[@name = 'billing_group']";
 
-    /*@FindBy (xpath = locatorOfCompany)
-    WebElement companyElement;*/
-
     @FindBy (xpath = "//td[2]/input[@name = 'create_check'][@value = 1]")
     WebElement radioButtonCreateInvoice;
 
     @FindBy (xpath = "//input[@id='create_button']")
     WebElement createButton;
-
-    public QuarterInvoicesEmissionPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void acceptConfirmation(){
         acceptConfirmationMessage();

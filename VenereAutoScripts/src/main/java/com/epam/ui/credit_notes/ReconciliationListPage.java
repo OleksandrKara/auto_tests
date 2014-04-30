@@ -1,10 +1,12 @@
 package com.epam.ui.credit_notes;
 
-import com.epam.main.Driver;
 import com.epam.main.Page;
+import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,7 +15,7 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 12:18 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ReconciliationListPage extends Page {
+public class ReconciliationListPage extends Page implements ExpectedResultsInterface {
 
     @FindBy(xpath = "//table[@id='table_mr']/tbody/tr[3]/td[15]/input")
     WebElement selCheckBox;
@@ -25,10 +27,6 @@ public class ReconciliationListPage extends Page {
     String monthElement = "//select[@name = 'e_mm']";
     String yearElement = "//select[@name = 'e_yy']";
     String bankElement = "//select[@name = 'venere_bank_id']";
-
-    public ReconciliationListPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void clickSelOptionCheckBox() {
         selCheckBox.click();
@@ -48,5 +46,28 @@ public class ReconciliationListPage extends Page {
         createButton.click();
 
         return new EmittedCreditNotePage();
+    }
+
+    @Override
+    public void invoke() {
+        String venere_company = "Venere UK";
+        String creditNoteType = "MR";
+        CreateCreditNoteStep1Page createCreditNoteStep1Page = new CreateCreditNoteStep1Page();
+        //createCreditNoteStep1Page.invoke();
+        createCreditNoteStep1Page.selectVenereCompany(venere_company);
+        createCreditNoteStep1Page.selectType(creditNoteType);
+        createCreditNoteStep1Page.clickContinueMr();
+    }
+
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(selCheckBox);
+                add(createButton);
+            }
+        };
+        //Assert.assertTrue("selCheckBox locator is broken", selCheckBox.isDisplayed());
+        //Assert.assertTrue("Button locator is broken", createButton.isDisplayed());
     }
 }

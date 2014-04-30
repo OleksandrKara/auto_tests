@@ -1,10 +1,8 @@
 package com.epam.ui.properties_admin;
 
-import com.epam.main.Driver;
-import com.epam.ui.properties_admin.PropertiesAdminSecondPage;
+import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,18 +11,15 @@ import org.openqa.selenium.support.PageFactory;
  * Time: 12:28 PM
  * To change this template use File | Settings | File Templates.
  */
-public class PropertiesAdminPage {
+public class PropertiesAdminPage extends Page {
 
     @FindBy (xpath = "//table[@class='formbox']//input[@name='id']") WebElement idHotel;
 
     @FindBy (xpath="//td/input[@class='submit'][@type='submit']") WebElement buttonSearch;
 
     @FindBy (xpath = "//table[@class='formbox']//input[@name='name']") WebElement hotelNameElement;
-    @FindBy (xpath = "//table[@class='formbox']//input[@name='city']") WebElement hotelCityElement;
 
-    public PropertiesAdminPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
+    @FindBy (xpath = "//table[@class='formbox']//input[@name='city']") WebElement hotelCityElement;
 
     public void enterHotelId(String hotelId){
         this.idHotel.sendKeys(hotelId);

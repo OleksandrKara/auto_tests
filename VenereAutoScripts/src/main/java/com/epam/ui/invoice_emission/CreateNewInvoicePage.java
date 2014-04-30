@@ -1,10 +1,8 @@
 package com.epam.ui.invoice_emission;
 
-import com.epam.main.Driver;
 import com.epam.main.Page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,10 +15,6 @@ public class CreateNewInvoicePage extends Page {
 
     @FindBy (xpath = "//input[@class='submit'][@type='Submit']")
     WebElement createTheInvoiceButton;
-
-    public CreateNewInvoicePage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void clickCreateInvoiceButton() {
         createTheInvoiceButton.click();

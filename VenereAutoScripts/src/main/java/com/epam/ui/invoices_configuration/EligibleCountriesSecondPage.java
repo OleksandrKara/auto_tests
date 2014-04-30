@@ -5,7 +5,6 @@ import com.epam.main.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,14 +23,6 @@ public class EligibleCountriesSecondPage extends Page {
 
     @FindBy(xpath = "//form[@id='remove_form']/input[@class = 'delete button']")
     WebElement deleteButton;
-
-    /*@FindBy(xpath = "//li[div[text()='Australia']]/div[@class = 'remove checkbox']")
-    WebElement removeCheckbox;*/
-
-
-    public EligibleCountriesSecondPage () {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
 
     public void acceptConfirmation(){
         acceptConfirmationMessage();

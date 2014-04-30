@@ -4,7 +4,10 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +20,10 @@ import java.util.concurrent.TimeUnit;
  * To change this template use File | Settings | File Templates.
  */
 public abstract class Page {
+
+    public Page() {
+        PageFactory.initElements(Driver.getDriver(), this);
+    }
 
     protected boolean isElementPresent(By locator) {
         Driver.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -57,5 +64,10 @@ public abstract class Page {
         executor.executeScript("arguments[0].click();", locator);
     }
 
-    //protected abstract void open();
+    protected void waitExplicitlyWebElement(WebElement locator, int seconds){
+        WebDriverWait waiter = new WebDriverWait(Driver.getDriver(), seconds);
+        waiter.until(ExpectedConditions.visibilityOf(locator));
+    }
+
+
 }
