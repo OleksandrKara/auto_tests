@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/AdmPage_ExpectedControls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Roles/ExpectedResultsInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/SmokeTests.java" />
-      <change type="DELETED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\src\main\java\com\epam\tests\SmokeTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/data/AppLinks.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/data/AppLinks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/BackgroundTasksPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/BackgroundTasksPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteReservationPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteReservationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep1Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep1Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep2Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep2Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/CreateNewInvoicePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/CreateNewInvoicePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/CreatedManualInvoicesPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/CreatedManualInvoicesPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/CreditNotes.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/CreditNotes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreditNotesMenuPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreditNotesMenuPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/EligibleCountriesPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/EligibleCountriesPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/EligibleCountriesSecondPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/EligibleCountriesSecondPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/EmittedCreditNotePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/EmittedCreditNotePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_collection/InvoiceCollectionMenuPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_collection/InvoiceCollectionMenuPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/InvoiceEmissionPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/InvoiceEmissionPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/tests/InvoicesConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/InvoicesConfigurationPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/InvoicesConfigurationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/ManualInvoiceEmissionPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/ManualInvoiceEmissionPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/ManualInvoicePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/ManualInvoicePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/main/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/main/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/properties_admin/PropertiesAdminPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/properties_admin/PropertiesAdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/properties_admin/PropertiesAdminSecondPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/properties_admin/PropertiesAdminSecondPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationListPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationListPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationModifyPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/PropertyConfigurationModifyPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/reconciliations/PropertyReconciliationPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/reconciliations/PropertyReconciliationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/QuarterInvoicesEmissionPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_emission/QuarterInvoicesEmissionPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/ReconciliationListPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/ReconciliationListPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/reconciliations/ReconciliationMenuPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/reconciliations/ReconciliationMenuPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/SearchPropertyBillingConfigurationPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/ui/invoices_configuration/SearchPropertyBillingConfigurationPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\AutoScriptsRepository\auto_tests\VenereAutoScripts\src\main\java\com\epam\main\ExpectedResultsInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Roles/Invokable.java" />
     </list>
     <ignored path="VenereAutoScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +13,7 @@
     <file path="/BaseTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398332454599" ignored="false" />
     <file path="/AdmPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398871204321" ignored="false" />
     <file path="/fragment.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398859271874" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398759298488" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1399375633859" ignored="false" />
     <file path="/test.properties" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398332234702" ignored="false" />
     <file path="/LoginPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398871094227" ignored="false" />
     <file path="/PropertiesAdminPage.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1395665906935" ignored="false" />
@@ -104,10 +69,10 @@
     <file path="/SmokeTests.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398868227854" ignored="false" />
     <file path="/ExpectedResultsInterface.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398859865155" ignored="false" />
     <file path="/Invokable.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398859903068" ignored="false" />
-    <file path="/ExpectedControlsTestBase.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398870485465" ignored="false" />
+    <file path="/ExpectedControlsTestBase.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1399388196707" ignored="false" />
     <file path="/CreditNotesMenuPageTest.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398870357487" ignored="false" />
     <file path="/MyPages.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398868245741" ignored="false" />
-    <file path="/LoginPage_ExpectedControls.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1398870269068" ignored="false" />
+    <file path="/LoginPage_ExpectedControls.java" changelist="a0bbeee4-aa0f-489c-82b9-b1e55c8f02ce" time="1399379681763" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,98 +139,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpectedControlsTestBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceCollectionMenuPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_collection/InvoiceCollectionMenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmittedCreditNotePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/EmittedCreditNotePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="9" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreditNotes.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/CreditNotes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="29" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.46023688">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreditNotesMenuPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreditNotesMenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCreditNoteStep2Page.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep2Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="47" selection-start="1561" selection-end="1580" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCreditNoteStep1Page.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep1Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCreditNoteReservationPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteReservationPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="13" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginPage_ExpectedControls.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="15" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+            <state line="17" column="15" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpectedControlsTestBase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.49591598">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -297,9 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedResultsInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/MyPages.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Invokable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/PagesTests/CreditNotesMenuPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Roles/Invokable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/SmokeTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java" />
@@ -309,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep2Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep1Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteReservationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java" />
       </list>
     </option>
   </component>
@@ -360,10 +249,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -419,7 +306,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -493,44 +379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="epam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VenereAutoScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VenereAutoScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="credit_notes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,6 +610,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -779,12 +628,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -797,23 +646,7 @@
       <recent name="com.epam.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreditNotes.createCreditNote">
-    <configuration default="false" name="DatabaseTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.DatabaseTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="VenereAutoScripts" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginPage_ExpectedControls.TestExpectedControls">
     <configuration default="false" name="SmokeTests.invokeMainPage" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="VenereAutoScripts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -849,14 +682,49 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ExpectedControlsTestBase.TestExpectedControls" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="CreditNotes.createCreditNote" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="VenereAutoScripts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.smoke_tests.ExpectedControlsTest" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.smoke_tests.ExpectedControlsTest.ExpectedControlsTestBase" />
-      <option name="METHOD_NAME" value="TestExpectedControls" />
+      <option name="PACKAGE_NAME" value="com.epam.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tests.CreditNotes" />
+      <option name="METHOD_NAME" value="createCreditNote" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59530" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreditNotes.creditNoteRevers" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="VenereAutoScripts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.epam.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tests.CreditNotes" />
+      <option name="METHOD_NAME" value="creditNoteRevers" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -903,18 +771,24 @@
       <envs />
       <properties />
       <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63634" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CreditNotes.createCreditNote" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="LoginPage_ExpectedControls.TestExpectedControls" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="VenereAutoScripts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.epam.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.tests.CreditNotes" />
-      <option name="METHOD_NAME" value="createCreditNote" />
+      <option name="PACKAGE_NAME" value="com.epam.smoke_tests.ExpectedControlsTest.concrete_pages" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.smoke_tests.ExpectedControlsTest.concrete_pages.LoginPage_ExpectedControls" />
+      <option name="METHOD_NAME" value="TestExpectedControls" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -932,14 +806,14 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59530" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -949,12 +823,6 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -987,19 +855,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1025,6 +880,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1117,19 +985,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TestNG.MyOwnTestNGSuite" />
       <item index="1" class="java.lang.String" itemvalue="Maven.MavenConfigurationRun" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DatabaseTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.SmokeTests.invokeMainPage" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ExpectedControlsTestBase.TestExpectedControls" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.SmokeTests.invokeMainPage" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CreditNotes.createCreditNote" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CreditNotes.creditNoteRevers" />
       <item index="5" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.CreditNotes.createCreditNote" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls.TestExpectedControls" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CreditNotes.createCreditNote" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls.TestExpectedControls" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ExpectedControlsTestBase.TestExpectedControls" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SmokeTests.invokeMainPage" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DatabaseTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls.TestExpectedControls" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls.TestExpectedControls" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginPage_ExpectedControls.TestExpectedControls" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1215,7 +1083,11 @@
       <created>1398414370745</created>
       <updated>1398414370745</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Expected controls pattern was changed">
+      <created>1398871674801</created>
+      <updated>1398871674801</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1239,7 +1111,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35372636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1247,16 +1119,16 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67296994" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2814238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31256953" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2814238" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11152615" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980605" sideWeight="0.6817667" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.078975454" sideWeight="0.7096774" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08019376" sideWeight="0.71078974" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40021345" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22678763" sideWeight="0.7096774" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29032257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="23" y="372" width="1874" height="296" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22874059" sideWeight="0.71078974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28921023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="23" y="372" width="1874" height="296" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1308,7 +1180,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expected controls pattern was implemented for some test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expected controls pattern was changed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1331,6 +1203,7 @@
     <MESSAGE value="Invoices Configurations tests have been updated&#10;Failed test's been added" />
     <MESSAGE value="Invoices Configurations tests have been updated&#10;Framework changes were applied" />
     <MESSAGE value="Expected controls pattern was implemented for some test classes" />
+    <MESSAGE value="Expected controls pattern was changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1344,104 +1217,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Roles/Invokable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/Roles/ExpectedResultsInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+        <state line="13" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="0.3016129">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/SmokeTests.java">
+    <entry file="file://$PROJECT_DIR$/test.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.027419355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/ReconciliationListPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="7" selection-start="1887" selection-end="2280" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/AdmPage_ExpectedControls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/AdmPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/Reporter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+        <state line="24" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="-13.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/reconciliations/PropertyReconciliationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="415" selection-end="415" vertical-scroll-proportion="-7.96">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/invoice_collection/InvoiceCollectionMenuPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.40.0/selenium-support-2.40.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+        <state line="11" column="28" selection-start="497" selection-end="497" vertical-scroll-proportion="-6.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/EmittedCreditNotePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
+        <state line="25" column="19" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.34759358">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreditNotesMenuPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+        <state line="77" column="50" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep2Page.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="47" selection-start="1561" selection-end="1580" vertical-scroll-proportion="0.0">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.23367697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteStep1Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/main/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="36" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.33225808">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/credit_notes/CreateCreditNoteReservationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.40.0/selenium-remote-driver-2.40.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="13" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.0">
+        <state line="57" column="16" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.34707904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.47903225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/CreditNotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="345" selection-end="361" vertical-scroll-proportion="0.3016129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.7/testng-6.8.7.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="324" column="54" selection-start="14168" selection-end="14168" vertical-scroll-proportion="0.3478261">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/concrete_pages/LoginPage_ExpectedControls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="15" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+        <state line="17" column="15" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1450,16 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/smoke_tests/ExpectedControlsTest/ExpectedControlsTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/tests/CreditNotes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.46023688">
+        <state line="31" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.49591598">
           <folding />
         </state>
       </provider>

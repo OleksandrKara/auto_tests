@@ -12,8 +12,11 @@ import com.epam.ui.LoginPage;
  * To change this template use File | Settings | File Templates.
  */
 public class LoginPage_ExpectedControls extends ExpectedControlsTestBase {
+
     @Override
     public ExpectedResultsInterface getCurrentPage() {
         return new LoginPage();
     }
+
+
 }
