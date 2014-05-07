@@ -2,7 +2,7 @@ package com.epam.ui.credit_notes;
 
 import com.epam.main.Driver;
 import com.epam.main.Page;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,6 +47,7 @@ public class CreateCreditNoteStep1Page extends Page implements ExpectedResultsIn
     @Override
     public void invoke() {
         CreditNotesMenuPage creditNotesMenuPage = new CreditNotesMenuPage();
+        creditNotesMenuPage.invoke();
         creditNotesMenuPage.clickCreateNoteLink();
     }
 
@@ -57,6 +58,5 @@ public class CreateCreditNoteStep1Page extends Page implements ExpectedResultsIn
                 add(continueButton);
             }
         };
-        //Assert.assertTrue("Button locator is broken", continueButton.isDisplayed());
     }
 }

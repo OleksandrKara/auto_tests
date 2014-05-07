@@ -1,7 +1,7 @@
-package com.epam.smoke_tests.ExpectedControlsTest;
+package com.epam.smoke_tests.smoke_test_pages;
 
 import com.epam.main.BaseTest;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -29,10 +29,9 @@ public abstract class ExpectedControlsTestBase extends BaseTest {
 
             List<WebElement> expectedControls = currentPage.getExpectedControls();
             for (WebElement expectedControl:expectedControls)  {
-               // System.out.println("Testing: " + expectedControls.toString());
-
-              //  Reporter.log("Testing: " + expectedControls.toString());
-                Assert.assertTrue(expectedControl.isDisplayed(),"for " + expectedControl.toString());
+                System.out.println("Testing: " + expectedControl.toString());
+                //Reporter.log("Testing: " + expectedControl.toString(), 2, true);
+                Assert.assertTrue(expectedControl.isDisplayed()," for " + expectedControl.toString());
             }
         }
 }

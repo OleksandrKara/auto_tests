@@ -18,7 +18,7 @@ public class CreditNotes extends BaseTest {
     private final String VENERE_COMPANY = "Venere UK";
 
     @Test //Credit Note creation (ER, AD, PD)
-    public void createCreditNote(){
+    public void createCreditNote() {
         String creditNoteType = "AD";
         String year = "2012";
         String invoiceNumber = "20106365";/* select top 1 num_fat from fatture where year(emission_date) = 2012 and payment_date is null and company_id = 2  */
@@ -61,7 +61,7 @@ public class CreditNotes extends BaseTest {
         reconciliationListPage.clickSelOptionCheckBox();
         reconciliationListPage.setTheDate(DATE);
         reconciliationListPage.setBank(BANK);
-        EmittedCreditNotePage  emittedCreditNotePage = reconciliationListPage.clickCreateButton();
+        EmittedCreditNotePage emittedCreditNotePage = reconciliationListPage.clickCreateButton();
         emittedCreditNotePage.clickNext();
     }
 

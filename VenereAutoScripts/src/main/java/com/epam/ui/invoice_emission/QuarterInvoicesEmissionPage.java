@@ -1,9 +1,13 @@
 package com.epam.ui.invoice_emission;
 
 import com.epam.main.Page;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +16,7 @@ import org.openqa.selenium.support.FindBy;
  * Time: 12:33 PM
  * To change this template use File | Settings | File Templates.
  */
-public class QuarterInvoicesEmissionPage extends Page {
+public class QuarterInvoicesEmissionPage extends Page implements ExpectedResultsInterface {
 
     private String locatorOfCompany = "//td/select[@name = 'venere_company_id']";
     private String locatorOfStartDate = "//select[@name = 'from_mm']";
@@ -65,5 +69,20 @@ public class QuarterInvoicesEmissionPage extends Page {
 
     public boolean doesTheBillingGroupIsTheSame(String billingGroup) {
         return isElementPresent(By.xpath("//td/select[@name = 'billing_group']/option[@label=\'" + billingGroup + "\'][@selected='selected']"));
+    }
+
+    @Override
+    public void invoke() {
+
+    }
+
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(radioButtonCreateInvoice);
+                add(createButton);
+            }
+        };
     }
 }

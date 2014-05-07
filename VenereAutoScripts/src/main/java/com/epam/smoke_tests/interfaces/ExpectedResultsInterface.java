@@ -1,4 +1,4 @@
-package com.epam.smoke_tests.Roles;
+package com.epam.smoke_tests.interfaces;
 
 import org.openqa.selenium.WebElement;
 

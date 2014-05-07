@@ -2,8 +2,12 @@ package com.epam.ui.invoice_emission;
 
 import com.epam.main.Driver;
 import com.epam.main.Page;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +16,7 @@ import org.openqa.selenium.support.FindBy;
  * Time: 12:56 PM
  * To change this template use File | Settings | File Templates.
  */
-public class BackgroundTasksPage extends Page {
+public class BackgroundTasksPage extends Page implements ExpectedResultsInterface {
 
     @FindBy (xpath = "//tr[3]/td/input[@value='Show form']")
     WebElement showFormButton;
@@ -32,5 +36,20 @@ public class BackgroundTasksPage extends Page {
 
     public void clickToShowForm() {
         showFormButton.click();
+    }
+
+    @Override
+    public void invoke() {
+
+    }
+
+    @Override
+    public List<WebElement> getExpectedControls() {
+        return new ArrayList<WebElement>(){
+            {
+                add(showFormButton);
+                add(startButton);
+            }
+        };
     }
 }

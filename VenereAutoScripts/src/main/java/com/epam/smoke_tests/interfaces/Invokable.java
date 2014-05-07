@@ -1,11 +1,13 @@
-package com.epam.smoke_tests.ExpectedControlsTest.concrete_pages;
+package com.epam.smoke_tests.interfaces;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Oleksandr_Kara
  * Date: 4/30/14
- * Time: 6:02 PM
+ * Time: 3:10 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AdmPage_ExpectedControls {
+public interface Invokable {
+    void invoke();
+    //boolean exists();
 }

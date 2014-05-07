@@ -1,7 +1,7 @@
-package com.epam.smoke_tests.ExpectedControlsTest.concrete_pages;
+package com.epam.smoke_tests.smoke_test_pages.ui_tests;
 
-import com.epam.smoke_tests.ExpectedControlsTest.ExpectedControlsTestBase;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.smoke_test_pages.ExpectedControlsTestBase;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import com.epam.ui.LoginPage;
 
 /**
@@ -17,6 +17,4 @@ public class LoginPage_ExpectedControls extends ExpectedControlsTestBase {
     public ExpectedResultsInterface getCurrentPage() {
         return new LoginPage();
     }
-
-
 }

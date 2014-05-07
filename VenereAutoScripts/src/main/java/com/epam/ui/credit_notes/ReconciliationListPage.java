@@ -1,7 +1,7 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Page;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -53,7 +53,7 @@ public class ReconciliationListPage extends Page implements ExpectedResultsInter
         String venere_company = "Venere UK";
         String creditNoteType = "MR";
         CreateCreditNoteStep1Page createCreditNoteStep1Page = new CreateCreditNoteStep1Page();
-        //createCreditNoteStep1Page.invoke();
+        createCreditNoteStep1Page.invoke();
         createCreditNoteStep1Page.selectVenereCompany(venere_company);
         createCreditNoteStep1Page.selectType(creditNoteType);
         createCreditNoteStep1Page.clickContinueMr();

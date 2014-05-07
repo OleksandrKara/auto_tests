@@ -1,7 +1,7 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Page;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -69,6 +69,7 @@ public class CreateCreditNoteReservationPage extends Page implements ExpectedRes
         String year = "2012";
         String invoiceNumber = "20106365";
         CreateCreditNoteStep2Page createCreditNoteStep2Page = new CreateCreditNoteStep2Page();
+        createCreditNoteStep2Page.invoke();
         createCreditNoteStep2Page.setYear(year);
         createCreditNoteStep2Page.setInvoiceNumber(invoiceNumber);
         createCreditNoteStep2Page.clickContinue();
@@ -80,10 +81,8 @@ public class CreateCreditNoteReservationPage extends Page implements ExpectedRes
             {
                 add(textarea);
                 add(amountField);
+                add(createButton);
             }
-        /*Assert.assertTrue("Textarea locator is broken", textarea.isDisplayed());
-        Assert.assertTrue("AmountField locator is broken", amountField.isDisplayed());
-        Assert.assertTrue("CreateButton locator is broken", createButton.isDisplayed());*/
         };
     }
 }

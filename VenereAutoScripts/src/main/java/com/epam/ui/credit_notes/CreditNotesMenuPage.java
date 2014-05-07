@@ -2,7 +2,7 @@ package com.epam.ui.credit_notes;
 
 import com.epam.data.AppLinks;
 import com.epam.main.Page;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import com.epam.ui.AdmPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,7 +29,7 @@ public class CreditNotesMenuPage extends Page implements ExpectedResultsInterfac
 
     public void invoke() {
         AdmPage adminPage = new AdmPage();
-        //adminPage.invoke();
+        adminPage.invoke();
         adminPage.clickToMenuPoint(AppLinks.CREDIT_NOTES_URL);
     }
 
@@ -39,8 +39,6 @@ public class CreditNotesMenuPage extends Page implements ExpectedResultsInterfac
                 add(creditNoteLink);
             }
         };
-
-        //Assert.assertTrue("Comments", creditNoteLink.isDisplayed());
     }
 
 }

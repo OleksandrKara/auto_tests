@@ -1,7 +1,7 @@
 package com.epam.ui.credit_notes;
 
 import com.epam.main.Page;
-import com.epam.smoke_tests.Roles.ExpectedResultsInterface;
+import com.epam.smoke_tests.interfaces.ExpectedResultsInterface;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -32,6 +32,7 @@ public class EmittedCreditNotePage extends Page implements ExpectedResultsInterf
         String amount = "500";
         String partialOrTotal = "Partial";
         CreateCreditNoteReservationPage createCreditNoteReservationPage = new CreateCreditNoteReservationPage();
+        createCreditNoteReservationPage.invoke();
         createCreditNoteReservationPage.fillIn(testString);
         createCreditNoteReservationPage.setAmount(amount);
         createCreditNoteReservationPage.setAmountType(partialOrTotal);
