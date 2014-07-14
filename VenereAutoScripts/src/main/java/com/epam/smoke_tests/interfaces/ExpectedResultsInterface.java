@@ -12,6 +12,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface ExpectedResultsInterface extends Invokable {
+    final static String key = "До мажор";
     List<WebElement> getExpectedControls();
     //boolean exist();
 }

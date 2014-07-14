@@ -54,9 +54,5 @@ public class LoginPage extends Page implements ExpectedResultsInterface {
                 add(button);
             }
         };
-        /*Assert.assertTrue("Comments", login.isDisplayed());
-        Assert.assertTrue("Comments", password.isDisplayed());
-        Assert.assertTrue("Comments", button.isDisplayed());*/
     }
-
 }

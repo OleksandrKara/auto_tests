@@ -10,4 +10,5 @@ package com.epam.smoke_tests.interfaces;
 public interface Invokable {
     void invoke();
     //boolean exists();
+
 }

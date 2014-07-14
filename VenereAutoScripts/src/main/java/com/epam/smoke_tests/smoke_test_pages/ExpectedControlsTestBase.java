@@ -17,9 +17,7 @@ import java.util.List;
  */
 
 public abstract class ExpectedControlsTestBase extends BaseTest {
-
         private ExpectedResultsInterface currentPage;
-
         public abstract ExpectedResultsInterface getCurrentPage();
 
         @Test

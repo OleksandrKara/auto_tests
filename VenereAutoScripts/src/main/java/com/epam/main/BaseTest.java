@@ -23,7 +23,7 @@ public class BaseTest {
         Driver.tearDown();
     }
 
-    protected void loginSteps(String appLink){
+    protected void loginSteps(String appLink) {
         LoginPage loginPage = new LoginPage();
         loginPage.open();
         loginPage.enterCredentials(System.getProperty("test.login"),System.getProperty("test.password"));

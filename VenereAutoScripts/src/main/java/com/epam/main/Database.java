@@ -19,23 +19,7 @@ public class Database {
         Connection connection = null;
         try {
             //Загружаем драйвер
-
             Class.forName(driver);
-            /* SybDriver sybDriver = (SybDriver)
-                    Class.forName("com.sybase.jdbc4.jdbc.SybDriver")
-                            .newInstance();
-            sybDriver.setVersion(com.sybase.jdbcx.SybDriver.
-                    VERSION_7);
-            DriverManager.registerDriver(sybDriver);
-
-
-            Properties sysProps = System.getProperties();
-            String drivers = "com.sybase.jdbc4.jdbc.SybDriver";
-            String oldDrivers = sysProps.getProperty("jdbc.drivers");
-            if (oldDrivers != null)
-                drivers += ":" + oldDrivers;
-            sysProps.put("jdbc.drivers", drivers.toString());*/
-
 
             System.out.println("Драйвер подключен");
             //Создаём соединение

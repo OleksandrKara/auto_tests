@@ -69,5 +69,4 @@ public abstract class Page {
         waiter.until(ExpectedConditions.visibilityOf(locator));
     }
 
-
 }
